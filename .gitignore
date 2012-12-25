@@ -1,0 +1,4 @@
+# Ignore system cruft
+.DS_Store
+*~
+*\#.*\#
