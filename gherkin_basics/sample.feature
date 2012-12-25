@@ -16,6 +16,7 @@ Scenario: Successful withdrawal from an account in credit
   When I request $20                 # the event
   Then $20 should be dispensed       # the outcome
 
+# Try to concentrate Scenario names on the Given/When contexts
 Scenario: Attempt withdrawal using stolen card
   Given I have $100 in my account
   But my card is invalid
